@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravelcustompackage\Timezones;
+namespace Laravelcustompackage\Timezonescustom;
 
 use Illuminate\Support\ServiceProvider;
 
-class TimezonesServiceProvider extends ServiceProvider
+class TimezonescustomServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -25,6 +25,6 @@ class TimezonesServiceProvider extends ServiceProvider
     {
         //
         include __DIR__.'/routes.php';
-        $this->app->make('Laravelcustompackage\Timezones\TimezonesController');
+        $this->app->make('Laravelcustompackage\Timezonescustom\TimezonescustomController');
     }
 }
