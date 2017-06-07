@@ -1,0 +1,12 @@
+{
+    "name": "laravelcustompackage/timezones",
+    "description": "Demo-package to show time",
+    "authors": [
+        {
+            "name": "Saumil Choksi",
+            "email": "saumil.choksi@sparsh-technologies.co.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
